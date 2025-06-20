@@ -64,7 +64,7 @@ extension FoodList{
                             .onSubmit {
                                 field = .image
                             }
-                    }
+                    }.padding()
                     
                     LabeledContent("圖示"){
                         TextField("可選 最多輸入2個表情符號", text: $food.image)
@@ -73,7 +73,7 @@ extension FoodList{
                             .onSubmit {
                                 field = nil
                             }
-                    }
+                    }.padding()
                     
                 }
                 
