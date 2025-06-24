@@ -1,0 +1,1327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F3D2712E03F4CC00C31B6F /* FoodPicker Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65F3D2512E03F4C900C31B6F /* FoodPicker Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65473C582E042CA8008F8EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655C060C2DFE7285004A390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65473C492E042CA7008F8EF3;
+			remoteInfo = "FoodPicker Mac";
+		};
+		65473C622E042CA8008F8EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655C060C2DFE7285004A390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65473C492E042CA7008F8EF3;
+			remoteInfo = "FoodPicker Mac";
+		};
+		655C06222DFE7287004A390D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655C060C2DFE7285004A390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655C06132DFE7285004A390D;
+			remoteInfo = FoodPicker;
+		};
+		655C062C2DFE7287004A390D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655C060C2DFE7285004A390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655C06132DFE7285004A390D;
+			remoteInfo = FoodPicker;
+		};
+		65F3D25E2E03F4CB00C31B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655C060C2DFE7285004A390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F3D2502E03F4C900C31B6F;
+			remoteInfo = "FoodPicker Watch Watch App";
+		};
+		65F3D2682E03F4CC00C31B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655C060C2DFE7285004A390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F3D2502E03F4C900C31B6F;
+			remoteInfo = "FoodPicker Watch Watch App";
+		};
+		65F3D26F2E03F4CC00C31B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655C060C2DFE7285004A390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F3D2502E03F4C900C31B6F;
+			remoteInfo = "FoodPicker Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65AD842A2E03EB90007F037B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				65F3D2712E03F4CC00C31B6F /* FoodPicker Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65473C4A2E042CA7008F8EF3 /* FoodPicker Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodPicker Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65473C572E042CA8008F8EF3 /* FoodPicker MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodPicker MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65473C612E042CA8008F8EF3 /* FoodPicker MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodPicker MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655C06142DFE7285004A390D /* FoodPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655C06212DFE7287004A390D /* FoodPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		655C062B2DFE7287004A390D /* FoodPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F3D2512E03F4C900C31B6F /* FoodPicker Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodPicker Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F3D25D2E03F4CB00C31B6F /* FoodPicker Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodPicker Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F3D2672E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodPicker Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		65473C4B2E042CA7008F8EF3 /* FoodPicker Mac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodPicker Mac";
+			sourceTree = "<group>";
+		};
+		65473C5A2E042CA8008F8EF3 /* FoodPicker MacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodPicker MacTests";
+			sourceTree = "<group>";
+		};
+		65473C642E042CA8008F8EF3 /* FoodPicker MacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodPicker MacUITests";
+			sourceTree = "<group>";
+		};
+		655C06162DFE7285004A390D /* FoodPicker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodPicker;
+			sourceTree = "<group>";
+		};
+		655C06242DFE7287004A390D /* FoodPickerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodPickerTests;
+			sourceTree = "<group>";
+		};
+		655C062E2DFE7287004A390D /* FoodPickerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodPickerUITests;
+			sourceTree = "<group>";
+		};
+		65F3D2522E03F4C900C31B6F /* FoodPicker Watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodPicker Watch Watch App";
+			sourceTree = "<group>";
+		};
+		65F3D2602E03F4CC00C31B6F /* FoodPicker Watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodPicker Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		65F3D26A2E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodPicker Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65473C472E042CA7008F8EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65473C542E042CA8008F8EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65473C5E2E042CA8008F8EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C06112DFE7285004A390D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C061E2DFE7287004A390D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C06282DFE7287004A390D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D24E2E03F4C900C31B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D25A2E03F4CB00C31B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D2642E03F4CC00C31B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655C060B2DFE7285004A390D = {
+			isa = PBXGroup;
+			children = (
+				655C06162DFE7285004A390D /* FoodPicker */,
+				655C06242DFE7287004A390D /* FoodPickerTests */,
+				655C062E2DFE7287004A390D /* FoodPickerUITests */,
+				65F3D2522E03F4C900C31B6F /* FoodPicker Watch Watch App */,
+				65F3D2602E03F4CC00C31B6F /* FoodPicker Watch Watch AppTests */,
+				65F3D26A2E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests */,
+				65473C4B2E042CA7008F8EF3 /* FoodPicker Mac */,
+				65473C5A2E042CA8008F8EF3 /* FoodPicker MacTests */,
+				65473C642E042CA8008F8EF3 /* FoodPicker MacUITests */,
+				655C06152DFE7285004A390D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655C06152DFE7285004A390D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655C06142DFE7285004A390D /* FoodPicker.app */,
+				655C06212DFE7287004A390D /* FoodPickerTests.xctest */,
+				655C062B2DFE7287004A390D /* FoodPickerUITests.xctest */,
+				65F3D2512E03F4C900C31B6F /* FoodPicker Watch Watch App.app */,
+				65F3D25D2E03F4CB00C31B6F /* FoodPicker Watch Watch AppTests.xctest */,
+				65F3D2672E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests.xctest */,
+				65473C4A2E042CA7008F8EF3 /* FoodPicker Mac.app */,
+				65473C572E042CA8008F8EF3 /* FoodPicker MacTests.xctest */,
+				65473C612E042CA8008F8EF3 /* FoodPicker MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65473C492E042CA7008F8EF3 /* FoodPicker Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65473C6F2E042CA8008F8EF3 /* Build configuration list for PBXNativeTarget "FoodPicker Mac" */;
+			buildPhases = (
+				65473C462E042CA7008F8EF3 /* Sources */,
+				65473C472E042CA7008F8EF3 /* Frameworks */,
+				65473C482E042CA7008F8EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				65473C4B2E042CA7008F8EF3 /* FoodPicker Mac */,
+			);
+			name = "FoodPicker Mac";
+			packageProductDependencies = (
+			);
+			productName = "FoodPicker Mac";
+			productReference = 65473C4A2E042CA7008F8EF3 /* FoodPicker Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65473C562E042CA8008F8EF3 /* FoodPicker MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65473C702E042CA8008F8EF3 /* Build configuration list for PBXNativeTarget "FoodPicker MacTests" */;
+			buildPhases = (
+				65473C532E042CA8008F8EF3 /* Sources */,
+				65473C542E042CA8008F8EF3 /* Frameworks */,
+				65473C552E042CA8008F8EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65473C592E042CA8008F8EF3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65473C5A2E042CA8008F8EF3 /* FoodPicker MacTests */,
+			);
+			name = "FoodPicker MacTests";
+			packageProductDependencies = (
+			);
+			productName = "FoodPicker MacTests";
+			productReference = 65473C572E042CA8008F8EF3 /* FoodPicker MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65473C602E042CA8008F8EF3 /* FoodPicker MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65473C712E042CA8008F8EF3 /* Build configuration list for PBXNativeTarget "FoodPicker MacUITests" */;
+			buildPhases = (
+				65473C5D2E042CA8008F8EF3 /* Sources */,
+				65473C5E2E042CA8008F8EF3 /* Frameworks */,
+				65473C5F2E042CA8008F8EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65473C632E042CA8008F8EF3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65473C642E042CA8008F8EF3 /* FoodPicker MacUITests */,
+			);
+			name = "FoodPicker MacUITests";
+			packageProductDependencies = (
+			);
+			productName = "FoodPicker MacUITests";
+			productReference = 65473C612E042CA8008F8EF3 /* FoodPicker MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		655C06132DFE7285004A390D /* FoodPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655C06352DFE7287004A390D /* Build configuration list for PBXNativeTarget "FoodPicker" */;
+			buildPhases = (
+				655C06102DFE7285004A390D /* Sources */,
+				655C06112DFE7285004A390D /* Frameworks */,
+				655C06122DFE7285004A390D /* Resources */,
+				65AD842A2E03EB90007F037B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F3D2702E03F4CC00C31B6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				655C06162DFE7285004A390D /* FoodPicker */,
+			);
+			name = FoodPicker;
+			packageProductDependencies = (
+			);
+			productName = FoodPicker;
+			productReference = 655C06142DFE7285004A390D /* FoodPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655C06202DFE7287004A390D /* FoodPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655C06382DFE7287004A390D /* Build configuration list for PBXNativeTarget "FoodPickerTests" */;
+			buildPhases = (
+				655C061D2DFE7287004A390D /* Sources */,
+				655C061E2DFE7287004A390D /* Frameworks */,
+				655C061F2DFE7287004A390D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655C06232DFE7287004A390D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				655C06242DFE7287004A390D /* FoodPickerTests */,
+			);
+			name = FoodPickerTests;
+			packageProductDependencies = (
+			);
+			productName = FoodPickerTests;
+			productReference = 655C06212DFE7287004A390D /* FoodPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		655C062A2DFE7287004A390D /* FoodPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655C063B2DFE7287004A390D /* Build configuration list for PBXNativeTarget "FoodPickerUITests" */;
+			buildPhases = (
+				655C06272DFE7287004A390D /* Sources */,
+				655C06282DFE7287004A390D /* Frameworks */,
+				655C06292DFE7287004A390D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655C062D2DFE7287004A390D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				655C062E2DFE7287004A390D /* FoodPickerUITests */,
+			);
+			name = FoodPickerUITests;
+			packageProductDependencies = (
+			);
+			productName = FoodPickerUITests;
+			productReference = 655C062B2DFE7287004A390D /* FoodPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		65F3D2502E03F4C900C31B6F /* FoodPicker Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F3D2722E03F4CC00C31B6F /* Build configuration list for PBXNativeTarget "FoodPicker Watch Watch App" */;
+			buildPhases = (
+				65F3D24D2E03F4C900C31B6F /* Sources */,
+				65F3D24E2E03F4C900C31B6F /* Frameworks */,
+				65F3D24F2E03F4C900C31B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				65F3D2522E03F4C900C31B6F /* FoodPicker Watch Watch App */,
+			);
+			name = "FoodPicker Watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "FoodPicker Watch Watch App";
+			productReference = 65F3D2512E03F4C900C31B6F /* FoodPicker Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65F3D25C2E03F4CB00C31B6F /* FoodPicker Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F3D2752E03F4CC00C31B6F /* Build configuration list for PBXNativeTarget "FoodPicker Watch Watch AppTests" */;
+			buildPhases = (
+				65F3D2592E03F4CB00C31B6F /* Sources */,
+				65F3D25A2E03F4CB00C31B6F /* Frameworks */,
+				65F3D25B2E03F4CB00C31B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F3D25F2E03F4CB00C31B6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65F3D2602E03F4CC00C31B6F /* FoodPicker Watch Watch AppTests */,
+			);
+			name = "FoodPicker Watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "FoodPicker Watch Watch AppTests";
+			productReference = 65F3D25D2E03F4CB00C31B6F /* FoodPicker Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65F3D2662E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F3D2782E03F4CC00C31B6F /* Build configuration list for PBXNativeTarget "FoodPicker Watch Watch AppUITests" */;
+			buildPhases = (
+				65F3D2632E03F4CC00C31B6F /* Sources */,
+				65F3D2642E03F4CC00C31B6F /* Frameworks */,
+				65F3D2652E03F4CC00C31B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F3D2692E03F4CC00C31B6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65F3D26A2E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests */,
+			);
+			name = "FoodPicker Watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "FoodPicker Watch Watch AppUITests";
+			productReference = 65F3D2672E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655C060C2DFE7285004A390D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					65473C492E042CA7008F8EF3 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					65473C562E042CA8008F8EF3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 65473C492E042CA7008F8EF3;
+					};
+					65473C602E042CA8008F8EF3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 65473C492E042CA7008F8EF3;
+					};
+					655C06132DFE7285004A390D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					655C06202DFE7287004A390D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 655C06132DFE7285004A390D;
+					};
+					655C062A2DFE7287004A390D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 655C06132DFE7285004A390D;
+					};
+					65F3D2502E03F4C900C31B6F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					65F3D25C2E03F4CB00C31B6F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 65F3D2502E03F4C900C31B6F;
+					};
+					65F3D2662E03F4CC00C31B6F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 65F3D2502E03F4C900C31B6F;
+					};
+				};
+			};
+			buildConfigurationList = 655C060F2DFE7285004A390D /* Build configuration list for PBXProject "FoodPicker" */;
+			developmentRegion = "zh-Hant";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 655C060B2DFE7285004A390D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 655C06152DFE7285004A390D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655C06132DFE7285004A390D /* FoodPicker */,
+				65F3D2502E03F4C900C31B6F /* FoodPicker Watch Watch App */,
+				65473C492E042CA7008F8EF3 /* FoodPicker Mac */,
+				655C062A2DFE7287004A390D /* FoodPickerUITests */,
+				655C06202DFE7287004A390D /* FoodPickerTests */,
+				65F3D25C2E03F4CB00C31B6F /* FoodPicker Watch Watch AppTests */,
+				65F3D2662E03F4CC00C31B6F /* FoodPicker Watch Watch AppUITests */,
+				65473C562E042CA8008F8EF3 /* FoodPicker MacTests */,
+				65473C602E042CA8008F8EF3 /* FoodPicker MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65473C482E042CA7008F8EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65473C552E042CA8008F8EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65473C5F2E042CA8008F8EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C06122DFE7285004A390D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C061F2DFE7287004A390D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C06292DFE7287004A390D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D24F2E03F4C900C31B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D25B2E03F4CB00C31B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D2652E03F4CC00C31B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65473C462E042CA7008F8EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65473C532E042CA8008F8EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65473C5D2E042CA8008F8EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C06102DFE7285004A390D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C061D2DFE7287004A390D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655C06272DFE7287004A390D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D24D2E03F4C900C31B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D2592E03F4CB00C31B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F3D2632E03F4CC00C31B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65473C592E042CA8008F8EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65473C492E042CA7008F8EF3 /* FoodPicker Mac */;
+			targetProxy = 65473C582E042CA8008F8EF3 /* PBXContainerItemProxy */;
+		};
+		65473C632E042CA8008F8EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65473C492E042CA7008F8EF3 /* FoodPicker Mac */;
+			targetProxy = 65473C622E042CA8008F8EF3 /* PBXContainerItemProxy */;
+		};
+		655C06232DFE7287004A390D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655C06132DFE7285004A390D /* FoodPicker */;
+			targetProxy = 655C06222DFE7287004A390D /* PBXContainerItemProxy */;
+		};
+		655C062D2DFE7287004A390D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655C06132DFE7285004A390D /* FoodPicker */;
+			targetProxy = 655C062C2DFE7287004A390D /* PBXContainerItemProxy */;
+		};
+		65F3D25F2E03F4CB00C31B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F3D2502E03F4C900C31B6F /* FoodPicker Watch Watch App */;
+			targetProxy = 65F3D25E2E03F4CB00C31B6F /* PBXContainerItemProxy */;
+		};
+		65F3D2692E03F4CC00C31B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F3D2502E03F4C900C31B6F /* FoodPicker Watch Watch App */;
+			targetProxy = 65F3D2682E03F4CC00C31B6F /* PBXContainerItemProxy */;
+		};
+		65F3D2702E03F4CC00C31B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F3D2502E03F4C900C31B6F /* FoodPicker Watch Watch App */;
+			targetProxy = 65F3D26F2E03F4CC00C31B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65473C692E042CA8008F8EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "FoodPicker Mac/FoodPicker_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "吃飯小決定";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		65473C6A2E042CA8008F8EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "FoodPicker Mac/FoodPicker_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "吃飯小決定";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		65473C6B2E042CA8008F8EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodPicker Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodPicker Mac";
+			};
+			name = Debug;
+		};
+		65473C6C2E042CA8008F8EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodPicker Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodPicker Mac";
+			};
+			name = Release;
+		};
+		65473C6D2E042CA8008F8EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FoodPicker Mac";
+			};
+			name = Debug;
+		};
+		65473C6E2E042CA8008F8EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FoodPicker Mac";
+			};
+			name = Release;
+		};
+		655C06332DFE7287004A390D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		655C06342DFE7287004A390D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655C06362DFE7287004A390D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "吃飯小決定";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655C06372DFE7287004A390D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "吃飯小決定";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		655C06392DFE7287004A390D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodPicker";
+			};
+			name = Debug;
+		};
+		655C063A2DFE7287004A390D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodPicker";
+			};
+			name = Release;
+		};
+		655C063C2DFE7287004A390D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodPicker;
+			};
+			name = Debug;
+		};
+		655C063D2DFE7287004A390D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodPicker;
+			};
+			name = Release;
+		};
+		65F3D2732E03F4CC00C31B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "吃飯小決定";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = top.danielk.FoodPicker;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		65F3D2742E03F4CC00C31B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "吃飯小決定";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = top.danielk.FoodPicker;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.danielk.FoodPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		65F3D2762E03F4CC00C31B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodPicker Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodPicker Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		65F3D2772E03F4CC00C31B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodPicker Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodPicker Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		65F3D2792E03F4CC00C31B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FoodPicker Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		65F3D27A2E03F4CC00C31B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NS4V5BBM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "top.danielk.FoodPicker-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FoodPicker Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65473C6F2E042CA8008F8EF3 /* Build configuration list for PBXNativeTarget "FoodPicker Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65473C692E042CA8008F8EF3 /* Debug */,
+				65473C6A2E042CA8008F8EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65473C702E042CA8008F8EF3 /* Build configuration list for PBXNativeTarget "FoodPicker MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65473C6B2E042CA8008F8EF3 /* Debug */,
+				65473C6C2E042CA8008F8EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65473C712E042CA8008F8EF3 /* Build configuration list for PBXNativeTarget "FoodPicker MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65473C6D2E042CA8008F8EF3 /* Debug */,
+				65473C6E2E042CA8008F8EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655C060F2DFE7285004A390D /* Build configuration list for PBXProject "FoodPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655C06332DFE7287004A390D /* Debug */,
+				655C06342DFE7287004A390D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655C06352DFE7287004A390D /* Build configuration list for PBXNativeTarget "FoodPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655C06362DFE7287004A390D /* Debug */,
+				655C06372DFE7287004A390D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655C06382DFE7287004A390D /* Build configuration list for PBXNativeTarget "FoodPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655C06392DFE7287004A390D /* Debug */,
+				655C063A2DFE7287004A390D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655C063B2DFE7287004A390D /* Build configuration list for PBXNativeTarget "FoodPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655C063C2DFE7287004A390D /* Debug */,
+				655C063D2DFE7287004A390D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F3D2722E03F4CC00C31B6F /* Build configuration list for PBXNativeTarget "FoodPicker Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F3D2732E03F4CC00C31B6F /* Debug */,
+				65F3D2742E03F4CC00C31B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F3D2752E03F4CC00C31B6F /* Build configuration list for PBXNativeTarget "FoodPicker Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F3D2762E03F4CC00C31B6F /* Debug */,
+				65F3D2772E03F4CC00C31B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F3D2782E03F4CC00C31B6F /* Build configuration list for PBXNativeTarget "FoodPicker Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F3D2792E03F4CC00C31B6F /* Debug */,
+				65F3D27A2E03F4CC00C31B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655C060C2DFE7285004A390D /* Project object */;
+}
